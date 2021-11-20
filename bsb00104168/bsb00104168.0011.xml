@@ -6,6 +6,7 @@
     <MeasurementUnit>pixel</MeasurementUnit>
     <sourceImageInformation>
       <fileName>bsb00104168.0011.jpeg</fileName>
+      
     </sourceImageInformation>
   </Description>
   
@@ -250,23 +251,6 @@
                     VPOS="1375"
                     WIDTH="1970"
                     HEIGHT="156"></String>
-          </TextLine>
-
-          
-          
-          <TextLine ID="eSc_line_a19a4b14"
-                    
-                    BASELINE="1071 1431 1057 1431" 
-                    HPOS="1048"
-                    VPOS="1385"
-                    WIDTH="29"
-                    HEIGHT="94">
-            <Shape><Polygon POINTS="1070 1430 1064 1479 1048 1473 1054 1430 1061 1385 1077 1394"/></Shape>
-	    <String CONTENT=""
-                    HPOS="1048"
-                    VPOS="1385"
-                    WIDTH="29"
-                    HEIGHT="94"></String>
           </TextLine>
 
           
@@ -568,6 +552,23 @@
                    ID="eSc_textblock_6cd16ce7"
                    TAGREFS="BT1468">
           <Shape><Polygon POINTS="2391 1093 2391 1242 2540 1242 2540 1093"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_711dca8a"
+                    TAGREFS="LT501"
+                    BASELINE="2417 1176 2505 1170" 
+                    HPOS="2402"
+                    VPOS="1053"
+                    WIDTH="101"
+                    HEIGHT="179">
+            <Shape><Polygon POINTS="2415 1173 2402 1060 2490 1053 2503 1167 2503 1232 2415 1222"/></Shape>
+	    <String CONTENT="II"
+                    HPOS="2402"
+                    VPOS="1053"
+                    WIDTH="101"
+                    HEIGHT="179"></String>
+          </TextLine>
+
           
         </TextBlock>
         

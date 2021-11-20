@@ -18,7 +18,7 @@
   <Layout>
     <Page WIDTH="3308"
           HEIGHT="4389"
-          PHYSICAL_IMG_NR="2"
+          PHYSICAL_IMG_NR="1"
           ID="eSc_dummypage_">
       <PrintSpace HPOS="0"
                   VPOS="0"
@@ -506,6 +506,33 @@
                     VPOS="3470"
                     WIDTH="2228"
                     HEIGHT="176"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="3059"
+                   VPOS="160"
+                   WIDTH="55"
+                   HEIGHT="55"
+                   ID="eSc_textblock_b142be8f"
+                   TAGREFS="BT1470">
+          <Shape><Polygon POINTS="3114 160 3099 214 3059 215 3073 160"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_ca08a0bc"
+                    
+                    BASELINE="3065 212 3114 210" 
+                    HPOS="3062"
+                    VPOS="153"
+                    WIDTH="52"
+                    HEIGHT="117">
+            <Shape><Polygon POINTS="3062 208 3062 153 3110 160 3110 208 3114 248 3066 270"/></Shape>
+	    <String CONTENT="4"
+                    HPOS="3062"
+                    VPOS="153"
+                    WIDTH="52"
+                    HEIGHT="117"></String>
           </TextLine>
 
           
