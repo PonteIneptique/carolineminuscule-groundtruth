@@ -11,7 +11,7 @@
   </Description>
   
   <Tags>
-    <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1468" LABEL="Margin" DESCRIPTION="block type Margin"/><OtherTag ID="BT1469" LABEL="DropCapital" DESCRIPTION="block type DropCapital"/><OtherTag ID="BT1470" LABEL="Numbering" DESCRIPTION="block type Numbering"/>
+    <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1468" LABEL="Margin" DESCRIPTION="block type Margin"/><OtherTag ID="BT1469" LABEL="DropCapital" DESCRIPTION="block type DropCapital"/><OtherTag ID="BT1470" LABEL="Numbering" DESCRIPTION="block type Numbering"/><OtherTag ID="BT1473" LABEL="RunningTitle" DESCRIPTION="block type RunningTitle"/>
     <OtherTag ID="LT501" LABEL="Default" DESCRIPTION="line type Default"/><OtherTag ID="LT502" LABEL="Rubric" DESCRIPTION="line type Rubric"/>
   </Tags>
   
@@ -291,17 +291,17 @@
           
           <TextLine ID="eSc_line_e9e3023b"
                     TAGREFS="LT501"
-                    BASELINE="384 2285 1350 2296" 
-                    HPOS="380"
-                    VPOS="2198"
-                    WIDTH="970"
-                    HEIGHT="131">
-            <Shape><Polygon POINTS="384 2285 380 2220 687 2198 691 2198 691 2198 691 2198 837 2223 874 2201 878 2201 878 2201 881 2201 881 2201 881 2201 885 2201 885 2201 885 2201 1006 2231 1046 2238 1342 2238 1350 2296 1342 2307 1116 2307 1101 2311 1042 2329 1039 2329 1039 2329 1035 2329 655 2322 655 2322 655 2322 651 2322 651 2322 633 2315 600 2300 567 2315 548 2322 548 2322 545 2322 545 2322 545 2322 541 2322 541 2322 537 2322 537 2322 537 2322 523 2315 494 2300 380 2315"/></Shape>
+                    BASELINE="384 2285 1039 2308" 
+                    HPOS="376"
+                    VPOS="2190"
+                    WIDTH="659"
+                    HEIGHT="147">
+            <Shape><Polygon POINTS="380 2282 376 2205 556 2190 559 2190 559 2190 559 2190 563 2190 563 2190 563 2190 567 2190 567 2190 589 2209 592 2212 603 2209 655 2194 658 2194 658 2194 658 2194 662 2194 662 2194 665 2194 731 2212 761 2223 1035 2223 1035 2307 1028 2337 940 2318 881 2333 878 2333 874 2333 874 2333 870 2333 870 2333 819 2329 472 2300 376 2311"/></Shape>
 	    <String CONTENT="retur et mente ."
-                    HPOS="380"
-                    VPOS="2198"
-                    WIDTH="970"
-                    HEIGHT="131"></String>
+                    HPOS="376"
+                    VPOS="2190"
+                    WIDTH="659"
+                    HEIGHT="147"></String>
           </TextLine>
 
           
@@ -393,17 +393,17 @@
           
           <TextLine ID="eSc_line_57ef32f1"
                     TAGREFS="LT501"
-                    BASELINE="365 2940 1357 2951" 
+                    BASELINE="365 2940 952 2957" 
                     HPOS="358"
-                    VPOS="2849"
-                    WIDTH="999"
-                    HEIGHT="135">
-            <Shape><Polygon POINTS="365 2940 369 2849 457 2878 556 2852 567 2852 567 2852 567 2852 570 2852 570 2852 622 2856 929 2885 1353 2882 1357 2951 1353 2958 1152 2977 1149 2977 1149 2977 991 2958 933 2955 881 2958 698 2984 698 2984 695 2984 358 2958"/></Shape>
+                    VPOS="2845"
+                    WIDTH="593"
+                    HEIGHT="154">
+            <Shape><Polygon POINTS="362 2936 362 2845 951 2882 951 2955 947 2966 717 2999 717 2999 713 2999 713 2999 713 2999 559 2966 501 2980 497 2980 497 2980 494 2980 494 2980 494 2980 490 2980 490 2980 490 2980 486 2980 486 2980 486 2977 483 2977 472 2962 472 2962 358 2962"/></Shape>
 	    <String CONTENT="tia suffragari"
                     HPOS="358"
-                    VPOS="2849"
-                    WIDTH="999"
-                    HEIGHT="135"></String>
+                    VPOS="2845"
+                    WIDTH="593"
+                    HEIGHT="154"></String>
           </TextLine>
 
           
@@ -521,7 +521,7 @@
           
           
           <TextLine ID="eSc_line_ca08a0bc"
-                    
+                    TAGREFS="LT501"
                     BASELINE="3065 212 3114 210" 
                     HPOS="3062"
                     VPOS="153"

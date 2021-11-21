@@ -11,7 +11,7 @@
   </Description>
   
   <Tags>
-    <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1468" LABEL="Margin" DESCRIPTION="block type Margin"/><OtherTag ID="BT1469" LABEL="DropCapital" DESCRIPTION="block type DropCapital"/><OtherTag ID="BT1470" LABEL="Numbering" DESCRIPTION="block type Numbering"/>
+    <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1468" LABEL="Margin" DESCRIPTION="block type Margin"/><OtherTag ID="BT1469" LABEL="DropCapital" DESCRIPTION="block type DropCapital"/><OtherTag ID="BT1470" LABEL="Numbering" DESCRIPTION="block type Numbering"/><OtherTag ID="BT1473" LABEL="RunningTitle" DESCRIPTION="block type RunningTitle"/>
     <OtherTag ID="LT501" LABEL="Default" DESCRIPTION="line type Default"/><OtherTag ID="LT502" LABEL="Rubric" DESCRIPTION="line type Rubric"/>
   </Tags>
   
@@ -35,7 +35,7 @@
           
           
           <TextLine ID="eSc_line_a8838232"
-                    
+                    TAGREFS="LT501"
                     BASELINE="164 537 234 537" 
                     HPOS="163"
                     VPOS="390"
@@ -376,17 +376,17 @@
           
           <TextLine ID="eSc_line_12cdceb4"
                     TAGREFS="LT501"
-                    BASELINE="262 3491 1555 3512" 
-                    HPOS="253"
-                    VPOS="3362"
-                    WIDTH="1302"
-                    HEIGHT="176">
-            <Shape><Polygon POINTS="262 3491 262 3413 313 3413 361 3366 361 3362 361 3362 365 3362 365 3362 365 3362 369 3362 369 3362 369 3362 373 3362 373 3362 661 3405 769 3370 773 3370 773 3370 773 3370 777 3370 777 3370 777 3370 782 3370 876 3400 911 3370 911 3370 915 3370 915 3370 915 3370 919 3370 919 3370 924 3370 1035 3370 1035 3370 1035 3370 1040 3370 1040 3370 1044 3370 1044 3370 1095 3413 1121 3426 1551 3413 1555 3512 1547 3538 253 3508"/></Shape>
-	    <String CONTENT="AETAS II"
-                    HPOS="253"
-                    VPOS="3362"
-                    WIDTH="1302"
-                    HEIGHT="176"></String>
+                    BASELINE="262 3491 1244 3512" 
+                    HPOS="249"
+                    VPOS="3353"
+                    WIDTH="993"
+                    HEIGHT="189">
+            <Shape><Polygon POINTS="257 3486 253 3396 446 3353 446 3353 446 3353 451 3353 451 3353 455 3353 631 3400 649 3405 666 3400 803 3362 808 3362 808 3362 812 3362 812 3362 812 3362 816 3362 816 3362 820 3362 876 3396 1027 3366 1027 3366 1027 3366 1031 3366 1031 3366 1035 3366 1035 3366 1035 3366 1040 3366 1100 3409 1113 3413 1237 3413 1242 3508 1233 3542 249 3504"/></Shape>
+	    <String CONTENT="millesimus dclxi"
+                    HPOS="249"
+                    VPOS="3353"
+                    WIDTH="993"
+                    HEIGHT="189"></String>
           </TextLine>
 
           
@@ -399,7 +399,7 @@
                     WIDTH="697"
                     HEIGHT="189">
             <Shape><Polygon POINTS="1585 3516 1577 3418 1667 3383 1667 3383 1671 3383 1671 3383 1676 3383 1676 3383 1676 3383 1680 3383 1757 3405 1985 3379 1985 3379 1989 3379 1989 3379 2260 3422 2265 3521 2260 3568 1611 3568 1607 3564 1607 3564 1603 3564 1603 3564 1603 3564 1598 3564 1598 3564 1568 3538"/></Shape>
-	    <String CONTENT="millesimus dclxi"
+	    <String CONTENT="AETAS II"
                     HPOS="1568"
                     VPOS="3379"
                     WIDTH="697"
@@ -504,7 +504,7 @@
           
           
           <TextLine ID="eSc_line_db91411a"
-                    
+                    TAGREFS="LT501"
                     BASELINE="3228 435 3334 413" 
                     HPOS="3210"
                     VPOS="347"
