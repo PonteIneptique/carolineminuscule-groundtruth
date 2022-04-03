@@ -40,12 +40,12 @@ jobs:
           humGenerator --parse alto --group ./*/*.xml --github-envs --to-json updated_metrics.json
           cat envs.txt >> $GITHUB_ENV
       - name: Get HTR United Badge Template
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         uses: andymckay/get-gist-action@master
         with:
           gistURL: https://gist.github.com/PonteIneptique/7813bb99f234b334fbf9c6c429ec2406
       - name: Automatically update the Catalog & the Badges
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         run: |-
           htruc update-volumes htr-united.yml updated_metrics.json --inplace
           # Generate badges
@@ -60,7 +60,7 @@ jobs:
           git commit -m "[Automatic] Update the Catalog & the Badges" || echo "Nothing to commit"
           git push || echo "Nothing to push"
       - uses: rymndhng/release-on-push-action@master
-        if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
+        if: ${{ github.ref == 'refs/heads/master' && github.event_name == 'push' }}
         with:
           bump_version_scheme: patch
           use_github_release_notes: true
