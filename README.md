@@ -1,5 +1,8 @@
 # OCR Ground truth for Caroline Minuscule
 
+![characters badge](badges/characters.svg) ![regions badge](badges/regions.svg) ![lines badge](badges/lines.svg) ![files badge](badges/files.svg) 
+
+
 This ground truth repository is a work in process; it currently accounts for a part of our complete Caroline Minuscule training pool of around 70 manuscripts used for our OCRopus Caroline Minuscule model (see ocropus-models repository).
 
 ## Repository structure
@@ -7,6 +10,8 @@ This ground truth repository is a work in process; it currently accounts for a p
 Each manuscript used is contained in a directory, which contains subdirectories for each page and a `metadata.txt` file.
 
 The page subdirectories are split into lines (by ocropus-gpageseg), with `.png` images and corresponding `.gt.txt` ground truth text files. These have been prepared for the OCRopus OCR engine, but should be usable by other OCR engines which work on a line by line basis. Please let us know if you adapt the ground truth to work with other OCR engines, we'd love to hear about it.
+
+There are also now full colour page images in each manuscript directory, alongside plain text and ALTO XML representations of ground truth, which can be used for training with Kraken or transforming into other formats.
 
 ### License, provenance, metadata
 
@@ -38,9 +43,6 @@ CAPITALIZATION
 
 ABBREVIATIONS
 - Diplomatic where possible: Retain abbreviations and render glyphs as opposed to expanded versions where possible
-- "\*" where original character isn't served: OCRopus (at the point in time of transcription) could not handle some of the medieval glyphs, even where a Unicode version was present. 
-Abbreviations not in OCRopus are uniformly transcribed as "\*", in the case of a combined character (such as a consonant with a macron) as the base character followed by "\*" (e.g. "t\*").
-The list of accepted characters in OCRopus can be found in this repository, and downloaded and used as codec in the OCRopus training process. 
 
 SPACING
 - Diplomatic: Preserve manuscript spacing, i.e. give diplomatic transcription
